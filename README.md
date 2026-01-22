@@ -2,6 +2,14 @@
 
 Este repositorio contiene todo lo que los asistentes puedan necesitar para el desarrollo del taller con instrucciones.
 
+## Cloudflare Turnstile
+
+Demo de cloudflare turnstile para probar con crawlers, scrapers y agentes de IA
+https://cloudflareturnstile.onrender.com
+
+Comet Browser: https://www.perplexity.ai/comet
+Browser OS: https://www.browseros.com/
+
 ## FireCrawl
 
 Es un crawler web online para observar el contenido obtenido.
@@ -12,6 +20,14 @@ https://www.firecrawl.dev/
 Contiene un Web Crawler propio hecho en python para los distintos propósitos del taller. Es un sólo archivo y debería poder ejecutarse tanto en consola como desde el plugin Python para Visual Studio Code. No requiere instalación de dependencias adicionales.
 
 Para el propósito del taller, el crawler preguntará antes de la url si se quiere buscar un llms.txt dentro de la url proporcionada. Si se está probando Nepenthes o Iocaine, es importante seleccionar "N"
+
+## Web de cafetería para test con asistentes de IA
+
+Comet Browser: https://www.perplexity.ai/comet
+Browser OS: https://www.browseros.com/
+
+Entrar en el enlace con comet o browserOS
+https://abelgd.github.io/cafe-laesquina/
 
 ## Nepenthes
 
