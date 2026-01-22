@@ -2,11 +2,23 @@
 
 Este repositorio contiene todo lo que los asistentes puedan necesitar para el desarrollo del taller con instrucciones.
 
+## FireCrawl
+
+Es un crawler web online para observar el contenido obtenido.
+https://www.firecrawl.dev/
+
 ## Web Crawler
 
 Contiene un Web Crawler propio hecho en python para los distintos propósitos del taller. Es un sólo archivo y debería poder ejecutarse tanto en consola como desde el plugin Python para Visual Studio Code. No requiere instalación de dependencias adicionales.
 
+Para el propósito del taller, el crawler preguntará antes de la url si se quiere buscar un llms.txt dentro de la url proporcionada. Si se está probando Nepenthes o Iocaine, es importante seleccionar "N"
+
 ## Nepenthes
+
+### La web del autor
+https://zadzmo.org/code/nepenthes/
+
+### Instrucciones
 
 Contiene un archivo .zip con todo lo necesario para arrancar un pequeño servidor web con una muestra de las capacidades de Nepenthes.
 
@@ -21,3 +33,10 @@ o en su defecto
   docker compose build
   docker compose up
 ```
+Si se hacen cambios a la configuración, es posible que haya que ejecutar
+
+```bash
+  docker compose down --v
+```
+Y después volver a ejecutar los comandos de arranque
+
